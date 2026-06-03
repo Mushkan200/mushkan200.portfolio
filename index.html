@@ -117,7 +117,7 @@
     .skill-box h3{font-size:var(--text-lg);margin-bottom:var(--space-4)}
     .skill-box ul{display:grid;gap:var(--space-2)}
     .skill-box li{list-style:none;color:var(--color-text-muted)}
-    .education-grid{display:grid;grid-template-columns:repeat(1,minmax(0,1fr));gap:var(--space-6)}
+    .education-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-6)}
     .education-card{padding:var(--space-6)}
     .education-card h3{font-size:var(--text-lg);margin-bottom:var(--space-2)}
     .education-card .institution{font-size:var(--text-sm);color:var(--color-primary);font-weight:600;margin-bottom:var(--space-2)}
@@ -126,6 +126,8 @@
     .education-highlights{margin-top:var(--space-4);display:grid;gap:var(--space-2)}
     .education-highlights li{list-style:none;padding-left:1.1rem;position:relative;color:var(--color-text-muted);font-size:var(--text-sm)}
     .education-highlights li::before{content:"";position:absolute;left:0;top:.6em;width:.35rem;height:.35rem;border-radius:50%;background:var(--color-primary)}
+    .performance-badge{display:inline-flex;align-items:center;gap:0.5rem;padding:0.4rem 0.8rem;border-radius:var(--radius-md);background:color-mix(in srgb, var(--color-primary) 15%, transparent);color:var(--color-primary);font-weight:600;font-size:var(--text-xs);margin-top:var(--space-2)}
+    .performance-badge strong{font-size:var(--text-sm)}
     .about-grid,.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-8)}
     .about-copy p,.contact-card p{color:var(--color-text-muted)}
     .timeline{display:grid;gap:var(--space-4)}
@@ -320,6 +322,24 @@
           <p>Building a foundation in technical learning and professional development through structured education and hands-on training.</p>
         </div>
         <div class="education-grid">
+          <article class="education-card">
+            <h3>Class 12th (Senior Secondary)</h3>
+            <p class="institution">Your School Name</p>
+            <p class="year">Completed: 2021 | Stream: Science</p>
+            <p>Completed senior secondary education with focus on Mathematics, Physics, Chemistry, and Computer Science fundamentals.</p>
+            <div class="performance-badge">
+              <span>Percentage: <strong>Update Your Score</strong></span>
+            </div>
+          </article>
+          <article class="education-card">
+            <h3>Class 10th (Secondary)</h3>
+            <p class="institution">Your School Name</p>
+            <p class="year">Completed: 2019</p>
+            <p>Completed secondary education with strong performance across science and mathematics subjects, building a strong foundational base.</p>
+            <div class="performance-badge">
+              <span>CGPA/Percentage: <strong>Update Your Score</strong></span>
+            </div>
+          </article>
           <article class="education-card">
             <h3>Diploma/Degree in Engineering/Technology</h3>
             <p class="institution">Your Institution Name</p>
